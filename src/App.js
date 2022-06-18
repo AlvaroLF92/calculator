@@ -1,11 +1,10 @@
 import { Component } from "react";
+import Base from './components/Base.js'
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        Im a Calculator
-      </div>
+    return (     
+        <Base />
     )
   }
 }
