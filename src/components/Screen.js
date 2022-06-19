@@ -3,7 +3,7 @@ import { Component } from "react";
 const styles = {
   Screen: {
     padding: '20px',
-    backgroundColor: 'grey',
+    backgroundColor: 'black',
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -18,7 +18,7 @@ class Screen extends Component {
   render () {
     return (
       <div style={styles.Screen} >
-      {this.props.value}
+      {this.props.value ? this.props.value : 0}
       </div>
     )
   }

@@ -4,26 +4,27 @@ import { Component } from "react";
 const styles = {
   BigSize: {
     backgroundColor: 'black',
-    borderRadius: '4px',
+    borderRadius: '16px',
     fontSize: '30px',
     padding: '5px',
     margin: '5px',
     color: 'white',
-    border: 'grey solid 4px',
+    border: 'white solid 2px',
     width: '80px'
   },
   SmallSize: {
     backgroundColor: 'black',
-    borderRadius: '4px',
+    borderRadius: '16px',
     fontSize: '30px',
     padding: '5px',
     margin: '5px',
     color: 'white',
-    border: 'grey solid 4px',
+    border: 'white solid 2px',
     width: '40px',
   },
   ButtonContainer: {
-    display: 'inline-block'
+    display: 'inline-block',
+
   }
 }
 
